@@ -1,0 +1,116 @@
+[
+    {
+      "key": "units",
+      "val": {
+        "t": "Table",
+        "v": [
+          {
+            "reqs": {
+              "t": "Counter",
+              "v": 4
+            },
+            "lon": {
+              "t": "Gauge",
+              "v": 4.0
+            },
+            "lat": {
+              "t": "Gauge",
+              "v": 4.0
+            }
+          },
+          {
+            "reqs": {
+              "t": "Counter",
+              "v": 5
+            },
+            "lat": {
+              "t": "Gauge",
+              "v": 5.0
+            },
+            "lon": {
+              "t": "Gauge",
+              "v": 5.0
+            }
+          },
+          {
+            "reqs": {
+              "t": "Counter",
+              "v": 6
+            },
+            "lat": {
+              "t": "Gauge",
+              "v": 1.0
+            },
+            "lon": {
+              "t": "Gauge",
+              "v": 1.0
+            }
+          },
+          {
+            "reqs": {
+              "t": "Counter",
+              "v": 10
+            },
+            "lat": {
+              "t": "Gauge",
+              "v": 5.0
+            },
+            "lon": {
+              "t": "Gauge",
+              "v": 5.0
+            }
+          },
+          {
+            "reqs": {
+              "t": "Counter",
+              "v": 8
+            },
+            "lat": {
+              "t": "Gauge",
+              "v": 3.0
+            },
+            "lon": {
+              "t": "Gauge",
+              "v": 3.0
+            },
+            "index": {
+              "t": "OctetString",
+              "v": "user1"
+            }
+          },
+          {
+            "lon": {
+              "t": "Gauge",
+              "v": 4.0
+            },
+            "reqs": {
+              "t": "Counter",
+              "v": 9
+            },
+            "lat": {
+              "t": "Gauge",
+              "v": 4.0
+            },
+            "index": {
+              "t": "OctetString",
+              "v": "user2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": "test.centroids",
+      "val": {
+        "t": "Gauge",
+        "v": 554.0
+      }
+    },
+    {
+      "key": "test.counter",
+      "val": {
+        "t": "Counter",
+        "v": 10
+      }
+    }
+  ]
